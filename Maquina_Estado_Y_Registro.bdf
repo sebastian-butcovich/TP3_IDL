@@ -502,82 +502,6 @@ applicable agreement for further details.
 	(pt 344 200)
 )
 (connector
-	(pt 992 448)
-	(pt 592 448)
-)
-(connector
-	(pt 576 400)
-	(pt 592 400)
-	(bus)
-)
-(connector
-	(pt 992 432)
-	(pt 608 432)
-)
-(connector
-	(pt 592 400)
-	(pt 608 400)
-	(bus)
-)
-(connector
-	(pt 992 416)
-	(pt 624 416)
-)
-(connector
-	(pt 608 400)
-	(pt 624 400)
-	(bus)
-)
-(connector
-	(pt 904 400)
-	(pt 904 368)
-)
-(connector
-	(pt 992 400)
-	(pt 904 400)
-)
-(connector
-	(pt 904 368)
-	(pt 664 368)
-)
-(connector
-	(pt 992 384)
-	(pt 928 384)
-)
-(connector
-	(pt 928 384)
-	(pt 928 336)
-)
-(connector
-	(pt 648 336)
-	(pt 928 336)
-)
-(connector
-	(text "SR3[0]" (rect 648 355 660 389)(font "Arial" )(vertical))
-	(pt 664 368)
-	(pt 664 400)
-)
-(connector
-	(text "SR3[1]" (rect 632 355 644 389)(font "Arial" )(vertical))
-	(pt 648 336)
-	(pt 648 400)
-)
-(connector
-	(text "SR3[2]" (rect 608 371 620 405)(font "Arial" )(vertical))
-	(pt 624 416)
-	(pt 624 400)
-)
-(connector
-	(text "SR3[3]" (rect 592 387 604 421)(font "Arial" )(vertical))
-	(pt 608 432)
-	(pt 608 400)
-)
-(connector
-	(text "SR3[4]" (rect 576 403 588 437)(font "Arial" )(vertical))
-	(pt 592 448)
-	(pt 592 400)
-)
-(connector
 	(pt 1744 176)
 	(pt 1744 160)
 )
@@ -598,48 +522,16 @@ applicable agreement for further details.
 	(pt 1216 384)
 )
 (connector
-	(pt 1216 128)
-	(pt 1216 384)
-)
-(connector
-	(pt 1216 128)
-	(pt 1536 128)
-)
-(connector
 	(pt 1240 400)
 	(pt 1128 400)
-)
-(connector
-	(pt 1240 400)
-	(pt 1240 144)
-)
-(connector
-	(pt 1240 144)
-	(pt 1536 144)
 )
 (connector
 	(pt 1256 416)
 	(pt 1128 416)
 )
 (connector
-	(pt 1256 416)
-	(pt 1256 160)
-)
-(connector
-	(pt 1256 160)
-	(pt 1536 160)
-)
-(connector
 	(pt 1280 432)
 	(pt 1128 432)
-)
-(connector
-	(pt 1280 432)
-	(pt 1280 176)
-)
-(connector
-	(pt 1280 176)
-	(pt 1536 176)
 )
 (connector
 	(pt 24 184)
@@ -652,16 +544,6 @@ applicable agreement for further details.
 (connector
 	(pt 632 304)
 	(pt 1064 304)
-)
-(connector
-	(pt 624 400)
-	(pt 632 400)
-	(bus)
-)
-(connector
-	(pt 632 400)
-	(pt 648 400)
-	(bus)
 )
 (connector
 	(pt 1840 112)
@@ -690,17 +572,6 @@ applicable agreement for further details.
 (connector
 	(pt 1808 144)
 	(pt 1840 144)
-)
-(connector
-	(pt 664 400)
-	(pt 712 400)
-	(bus)
-)
-(connector
-	(text "SR3[15..0]" (rect 656 384 709 396)(font "Arial" ))
-	(pt 648 400)
-	(pt 664 400)
-	(bus)
 )
 (connector
 	(pt 232 184)
@@ -743,11 +614,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "SR3[14]" (rect 1046 264 1058 304)(font "Arial" )(vertical))
-	(pt 1064 304)
-	(pt 1064 96)
-)
-(connector
 	(pt 1064 96)
 	(pt 1840 96)
 )
@@ -763,9 +629,143 @@ applicable agreement for further details.
 	(pt 440 144)
 	(pt 488 144)
 )
-(junction (pt 592 400))
-(junction (pt 608 400))
-(junction (pt 624 400))
-(junction (pt 664 400))
-(junction (pt 648 400))
+(connector
+	(pt 648 448)
+	(pt 992 448)
+)
+(connector
+	(pt 656 432)
+	(pt 992 432)
+)
+(connector
+	(pt 664 416)
+	(pt 992 416)
+)
+(connector
+	(pt 992 384)
+	(pt 976 384)
+)
+(connector
+	(pt 976 384)
+	(pt 976 352)
+)
+(connector
+	(pt 976 352)
+	(pt 728 352)
+)
+(connector
+	(pt 992 400)
+	(pt 960 400)
+)
+(connector
+	(pt 960 400)
+	(pt 960 360)
+)
+(connector
+	(pt 960 360)
+	(pt 760 360)
+)
+(connector
+	(pt 576 400)
+	(pt 632 400)
+	(bus)
+)
+(connector
+	(pt 632 400)
+	(pt 648 400)
+	(bus)
+)
+(connector
+	(pt 648 400)
+	(pt 656 400)
+	(bus)
+)
+(connector
+	(pt 656 400)
+	(pt 664 400)
+	(bus)
+)
+(connector
+	(pt 728 400)
+	(pt 760 400)
+	(bus)
+)
+(connector
+	(pt 760 400)
+	(pt 840 400)
+	(bus)
+)
+(connector
+	(text "s[15..0]" (rect 656 384 693 396)(font "Arial" ))
+	(pt 664 400)
+	(pt 728 400)
+	(bus)
+)
+(connector
+	(text "s[12]" (rect 648 366 660 390)(font "Arial" )(vertical))
+	(pt 664 400)
+	(pt 664 416)
+)
+(connector
+	(text "s[11]" (rect 640 382 652 406)(font "Arial" )(vertical))
+	(pt 656 400)
+	(pt 656 432)
+)
+(connector
+	(text "s[10]" (rect 632 398 644 422)(font "Arial" )(vertical))
+	(pt 648 400)
+	(pt 648 448)
+)
+(connector
+	(text "s[14]" (rect 712 350 724 374)(font "Arial" )(vertical))
+	(pt 728 352)
+	(pt 728 400)
+)
+(connector
+	(text "s[13]" (rect 744 350 756 374)(font "Arial" )(vertical))
+	(pt 760 360)
+	(pt 760 400)
+)
+(connector
+	(text "s[0]" (rect 1046 264 1058 282)(font "Arial" )(vertical))
+	(pt 1064 304)
+	(pt 1064 96)
+)
+(connector
+	(pt 1280 128)
+	(pt 1280 432)
+)
+(connector
+	(pt 1280 128)
+	(pt 1536 128)
+)
+(connector
+	(pt 1256 144)
+	(pt 1256 416)
+)
+(connector
+	(pt 1256 144)
+	(pt 1536 144)
+)
+(connector
+	(pt 1240 160)
+	(pt 1240 400)
+)
+(connector
+	(pt 1240 160)
+	(pt 1536 160)
+)
+(connector
+	(pt 1216 176)
+	(pt 1216 384)
+)
+(connector
+	(pt 1216 176)
+	(pt 1536 176)
+)
 (junction (pt 632 400))
+(junction (pt 648 400))
+(junction (pt 656 400))
+(junction (pt 664 400))
+(junction (pt 728 400))
+(junction (pt 760 400))
